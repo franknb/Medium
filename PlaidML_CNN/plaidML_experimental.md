@@ -1,8 +1,9 @@
 # Notes on Experimental PlaidML Hardware Config
 
-```
-(medium) ➜  PlaidML_CNN git:(master) ✗ plaidml-setup
+Run this command to setup PlaidML: 
 
+```
+plaidml-setup
 ```
 You should see this output:
 ```
