@@ -1,9 +1,11 @@
 # Non-Experimental PlaidML Config
 
-In this example I do not use the experimental hardware configuration for PlaidML
+In this example I do not use the experimental hardware configuration for PlaidML. 
+
+Still, run this command again if you ran it earlier, and make different choices.
 
 ```
-(medium) ➜  PlaidML_CNN git:(master) plaidml-setup                                                   
+plaidml-setup                                                   
 
 ```
 
