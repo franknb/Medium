@@ -1,0 +1,4 @@
+plaidml
+keras
+plaidml.keras
+jupyterlab
