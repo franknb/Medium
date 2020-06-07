@@ -71,4 +71,4 @@ def predict(n_clicks, sl, sw, pl, pw):
     ])
 
 if __name__ == '__main__':
-    app.run_server(debug=True, use_reloader=False)
+    app.run_server(debug=True)
