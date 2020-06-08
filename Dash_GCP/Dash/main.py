@@ -3,6 +3,7 @@ import base64
 import io
 from PIL import Image
 from sklearn import datasets
+import flask
 
 # Load Iris dataset 
 data = datasets.load_iris()
@@ -27,9 +28,8 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output, State
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = flask.Flask(__name__)
+app = dash.Dash(__name__, server=server)
 
 app.layout = html.Div([
     html.H1(children="Guess the Iris Species App"),
