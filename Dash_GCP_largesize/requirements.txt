@@ -3,6 +3,6 @@ dash-core-components==1.9.1
 dash-html-components==1.0.3
 dash-renderer==1.4.0
 dash-table==4.6.2
-tensorflow==2.1.0
+tensorflow==2.3.1
 numpy==1.18.3
 Pillow==7.1.2
