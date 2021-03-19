@@ -5,4 +5,4 @@ dash-renderer==1.4.0
 dash-table==4.6.2
 tensorflow==2.1.0
 numpy==1.18.3
-Pillow==7.1.2
+Pillow==8.1.1
