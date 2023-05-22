@@ -5,6 +5,6 @@ dash-renderer==1.4.0
 dash-table==4.6.2
 scikit-learn==0.22.2
 Pillow==9.3.0
-requests==2.23.0
+requests==2.31.0
 gunicorn==20.0.4
 flask==1.1.2
